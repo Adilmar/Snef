@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.ufu.snef"
-        versionCode="2" 
-        version   = "1.0.1">
+        versionCode="3" 
+        version   = "1.0.2">
 		
 
     <!-- versionCode is optional and Android only -->
@@ -21,7 +21,13 @@
 	
 	<preference name="stay-in-webview" value="true" /> 
 	
-	
+	 <!-- SPLASH SCREENS -->
+<gap:splash src="img/splash.png" /> <!-- default 320x480 pixels -->
+<gap:splash src="img/splash1.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
+<gap:splash src="img/splash2.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
+<gap:splash src="img/splash3.png" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 -->
+<gap:splash src="img/splash4.png" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 -->
+
 	
 	
 	 <!-- Define app icon for each platform. -->
